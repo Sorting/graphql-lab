@@ -1,0 +1,62 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/sorting/RiderProjects/WebApplication1/WebApplication1/WebApplication1.csproj",
+    "projectName": "WebApplication1",
+    "projectPath": "/Users/sorting/RiderProjects/WebApplication1/WebApplication1/WebApplication1.csproj",
+    "outputPath": "/Users/sorting/RiderProjects/WebApplication1/WebApplication1/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.0"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {},
+      "https://starrepublic.pkgs.visualstudio.com/_packaging/WasaKredit/nuget/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.0": {
+      "dependencies": {
+        "GraphQL": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        },
+        "GraphQL.Server.Core": {
+          "target": "Package",
+          "version": "[3.4.0, )"
+        },
+        "GraphQL.Server.Transports.AspNetCore": {
+          "target": "Package",
+          "version": "[3.4.0, )"
+        },
+        "GraphQL.Server.Ui.Playground": {
+          "target": "Package",
+          "version": "[3.4.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
